@@ -1,0 +1,33 @@
+{
+  "name": "fintrack",
+  "version": "1.0.0",
+  "description": "Simple finance tracker",
+  "main": "bin/fintrack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/fintrack"
+  },
+  "bin": {
+    "finance": "bin/fintrack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LestaD/fintrack.git"
+  },
+  "keywords": [
+    "finance",
+    "tracker",
+    "console"
+  ],
+  "author": "LestaD <i.am@lestad.net> (Sergey Sova)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LestaD/fintrack/issues"
+  },
+  "homepage": "https://github.com/LestaD/fintrack#readme",
+  "dependencies": {
+    "conlog": "^1.0.0",
+    "jsonsave": "^3.0.0",
+    "minimist": "^1.1.1"
+  }
+}
